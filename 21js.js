@@ -68,9 +68,61 @@ if (hamburger1 === 3 && fries1 === 2 || nagets1 === 1 && pivo1 === 2) {
     console.log('Саша и Юра идут в бар пить пиво!');
 }
 
+console.log(hamburger1 === 3 && fries1 === 2 || nagets1 === 1 && pivo1);//false
+
+
 
 // Example 3
-
 let johnReport, alexReport, samReport, mariaReport = 'done';
-
 console.log(johnReport || alexReport || samReport || mariaReport);
+
+
+//ОПЕРАТОР - НЕТ - !
+
+console.log(!0); // не 0;
+
+
+//HOMETASK
+console.log( NaN || 2 || undefined );
+console.log( NaN && 2 && undefined );
+console.log( 1 && 2 && 3 );
+console.log( !1 && 2 || !3 );
+console.log( 25 || null && !3 );
+console.log( NaN || null || !3 || undefined || 5);
+console.log( NaN || null && !3 && undefined || 5); 
+console.log( 5 === 5 && 3 > 1 || 5);
+
+
+//Выполняется ли условие?
+const hamburger2 = 3;
+const fries2 = 3;
+const cola = 0;
+const nuggets = 2;
+ 
+if (hamburger2 === 3 && cola || fries2 === 3 && nuggets) {
+   console.log('Done!')
+}
+//Done
+
+//Выполняется ли условие? - 2
+
+let hamburger3;
+const fries3 = NaN;
+const cola3 = 0;
+const nuggets3 = 2;
+ 
+if (hamburger3 || cola3 || fries3 === 3 || nuggets3) {
+   console.log('Done!')
+}
+//Done!
+
+//Выполняется ли условие?-3
+
+let hamburger;
+const fries = NaN;
+const cola = 0;
+const nuggets = 2;
+ 
+if (hamburger && cola || fries === 3 && nuggets) {
+   console.log('Done!')
+}//nope
