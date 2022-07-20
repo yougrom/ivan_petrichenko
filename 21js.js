@@ -118,11 +118,11 @@ if (hamburger3 || cola3 || fries3 === 3 || nuggets3) {
 
 //Выполняется ли условие?-3
 
-let hamburger;
-const fries = NaN;
-const cola = 0;
-const nuggets = 2;
+let hamburger4;
+const fries4 = NaN;
+const cola4 = 0;
+const nuggets4 = 2;
  
-if (hamburger && cola || fries === 3 && nuggets) {
+if (hamburger4 && cola4 || fries4 === 3 && nuggets4) {
    console.log('Done!')
 }//nope
